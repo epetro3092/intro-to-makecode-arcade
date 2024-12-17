@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="S?,8gdF!^37CKP}Tnt$U">mySprite</variable><variable type="KIND_SpriteKind" id="DB@?DR%puV0GG}4DjiZS">Player</variable><variable type="KIND_SpriteKind" id="sr$7mg!+vV`}^?GC[ml4">Projectile</variable><variable type="KIND_SpriteKind" id="+)+8N[OqgZmqLTWM%Fd_">Food</variable><variable type="KIND_SpriteKind" id="44ynik]$XJT3*a0PS/Ef">Enemy</variable></variables><block type="keyonevent" id="m*s7%R$tj.lAvv{q^ut6" x="440" y="-60"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="startEffectOnSprite" id="uM|CoiQY3FP~ALEFp@k!"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><field name="effect">effects.confetti</field><value name="sprite"><block type="variables_get" id="`Qbq25aHs_6P$vxM46z_"><field name="VAR" id="S?,8gdF!^37CKP}Tnt$U">mySprite</field></block></value><value name="duration"><shadow type="timePicker"><field name="ms">500</field></shadow><block type="device_random" id="|_6bX3!wWR.Bd)]U_w4n"><value name="min"><shadow type="math_number" id="K:%qs`P9PFWl~8Sr,ePV"><field name="NUM">100</field></shadow></value><value name="limit"><shadow type="math_number" id="MaMalh^c{:IzEz~1w9;t"><field name="NUM">600</field></shadow></value></block></value></block></statement></block><block type="pxt-on-start" id="P/a19%aZsLD1GARjM/4u" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="d.e6ZP,hK!C{6/q)/I;h"><value name="color"><shadow type="colorindexpicker" id="xi78rS${byv=#o*ZJ:Lm"><field name="index">8</field></shadow></value><next><block type="gameSplash" id="v`n}Tj%wsiCmZ)v9KjIw"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="title"><shadow type="text" id="{oQ$2(K/h4P|X|=Y9$47"><field name="TEXT">"It's almost winter break"</field></shadow></value><next><block type="variables_set" id="lRN7mwq5Pz)T?nBkmQ,V"><field name="VAR" id="S?,8gdF!^37CKP}Tnt$U">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="6PZXKXI$K*y(sc=5w]Zb"><value name="img"><shadow type="screen_image_picker" id=",)dCr1/_v{CK.T.bhp6-"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . 5 5 . . . . . . 5 5 . . . 
+. . . 5 5 . . . . . . 5 5 . . . 
+. . . 5 5 . . . . . . 5 5 . . . 
+. . . 5 5 . . . . . . 5 5 . . 5 
+. . . 5 5 . . . . . . 5 5 . . 5 
+5 5 . . . . . . . . . . . . 5 5 
+5 5 . . . . . . . . . . . 5 5 5 
+. 5 5 . . . . . . . . . 5 5 5 . 
+. 5 5 5 5 . . . . . . 5 5 5 . . 
+. . 5 5 5 5 5 5 5 5 5 5 5 5 . . 
+. . . 5 5 5 5 5 5 5 5 5 5 . . . 
+. . . . . 5 5 5 5 5 5 . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":",)dCr1/_v{CK.T.bhp6-"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="m|5}b$RHqVhp]w8M@6#A"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></next></block></statement></block></xml>
